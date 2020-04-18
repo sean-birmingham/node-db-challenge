@@ -40,11 +40,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] Explain the difference between `Relational Databases` and `SQL`.
 
+      A relational database is a collection of data items with pre-defined relationships between them. SQL is the standard language for accessing and manipulating databases.
+
 - [ ] Why do tables need a `primary key`?
+
+      It ensures row-level accessibility.
 
 - [ ] What is the name given to a table column that references the primary key on another table.
 
-- [ ] What do we need in order to have a _many to many_ relationship between two tables.
+      Foreign key
+
+* [ ] What do we need in order to have a _many to many_ relationship between two tables.
+
+      An intermediary table that holds foreign keys that reference the primary key on the related tables.
 
 ## Minimum Viable Product
 
